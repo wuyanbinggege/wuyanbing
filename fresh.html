@@ -206,8 +206,7 @@
 									<dl>
 										<dt>
 											<a href="page.html?pid=${res[i][j].id}">
-												<img src="img/images/${res[i][j].src.a}"/>
-											</a>
+												<img src="img/images/${res[i][j].src.a}"/											</a>
 										</dt>
 										<dd>
 											<p><span>${res[i][j].name}</span><span>${res[i][j].price}</span></p>
@@ -274,7 +273,7 @@
 		setCookie("shoplist", JSON.stringify(arr));
 		var f = confirm("是否继续购买?确定--继续购买，取消---去购物车结算");
 		if(!f) {
-			location.href = "http://127.0.0.1/tiantianguoyuan/shopCar.html";
+			location.href = "shopCar.html";
 		}else{
 			alert("加入购物车成功!")
 			history.go(0)
