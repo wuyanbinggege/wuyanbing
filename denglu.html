@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/header-footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/denglu.css"/>
+	</head>
+	<body>
+		<div id="top">
+			<p>您好，欢迎来到天天果园!</p>
+			<ul>
+				<li><a href="">[登录]</a></li>
+				<li><a href="zhuce.html">[注册<span>有惊喜</span>]</a></li>
+				<li><a href="">我的果园</a></li>
+				<li><a href="">手机果园</a></li>
+				<li><a href="">联系客服</a></li>
+			</ul>
+		</div>
+		<div id="header">
+
+			<img src="img/images/logo.png" id="img01"/>
+			<ul>
+				<li><a href="home.html">首页<br/>Home</a></li>
+				<li><a href="fruit.html">鲜果<br/>Fruit</a></li>
+				<li><a href="fresh.html">生鲜<br/>Fresh</a></li>
+				<li><a href="">礼品<br/>Gigt</a></li>
+				<li><a href="">会员中心<br/>VIP Club</a></li>
+			</ul>
+			<div id="shousuo">
+				<input type="text" name="" id="" placeholder="请输入关键字"  />
+				<img src="img/images/20170902145509.png" /><div id="shop_car">购物车<span>(0)</span></div><br />
+				<div>热门：<a href="#">橙</a> <a href="">提子</a> <a href="">樱桃</a> <a href="">苹果</a></div>
+			</div>
+			
+		</div>
+		<p id="denglu_p">会员登录</p>
+		<div id="denglu">
+			<div id="denglu_left">
+				<a href="zhuce.html">注册会员></a>
+			</div>
+			<div id="denglu_right">
+				<p>手机号<input type="text" id="pNumber" placeholder="请输入您的手机号"/></p>
+				<p>密码<input type="password" placeholder="请输入您的密码" id="upwd"/></p>
+				<p><input type="checkbox" checked="checked"/>记住密码<a href="#">快捷登录</a><a href="#">忘记密码?</a></p>
+				<p><a href="zhuce.html">注册会员</a><input id="dengLu" type="button" value="登录"/></p>
+			</div>
+		</div>
+		<div id="xuanfu">
+			<ul>
+				<li>卡券<br/>兑换</li>
+				<li>客服</li>
+				<li id="xuanfu_li3">TOP↑</li>
+			</ul>
+		</div>
+		<div id="footer">
+			<div id="footer_box01">
+				<img src="img/images/20170902171324.png" id="footer_img01"/>
+				<p>电话客服<span>09：00-21：00</span></p>
+				<p>在线客服<span>08：00-24：00</span></p>
+			</div>
+			<div id="footer_box02">	
+			    <img src="img/images/20170902172346.png" />
+			    <span>天天果园官方微信</span>
+			</div>
+			<div id="footer_box03">
+				<img src="img/images/20170902172402.png" />
+				<span>天天果园APP</span>
+			</div>
+			<div id="footer_box04">
+				<ul class="u1">
+					
+					<li>购物指南</li>
+					<li>配送说明</li>
+					<li>售后服务</li>
+					<li>企业服务</li>
+				</ul>
+				<ul class="u2">
+					<li><a href="#">新用户注册</a></li>
+					<li><a href="#">运费说明</a></li>
+					<li><a href="#">退换货规则</a></li>
+					<li><a href="#">企业订购</a></li>
+					<li><a href="#">在线下单</a></li>
+					<li><a href="#">运费方式</a></li>
+					<li><a href="#">服务保障承诺</a></li>
+					<li><a href="#">公司简介</a></li>
+					<li><a href="#">支付方式</a></li>
+					<li><a href="#">发票说明</a></li>
+					<li><a href="#">验货与签收</a></li>
+					<li><a href="#">定制专区</a></li>
+				</ul>
+			</div>
+			
+		</div>
+		<div id="bottom">
+			<p class="p1">版权所有 ©2017上海天天鲜果电子商务有限公司  保留所有权利 | 沪ICP备12042163</p>
+			<p class="p2">天天果园  鲜果网购</p>
+			<a href="#"><img src="img/images/guan_wgdjp.png" /></a>
+		</div>
+	</body>
+</html>
+<script src="jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+	 $("#xuanfu_li3").click(function(){
+    	$("body,html").animate({scrollTop : 0},1000)
+    })
+	 $("#dengLu").click(function(){
+	 	var str = document.cookie;
+		var arr = str.split("; ");
+		for( var i = 0 ; i < arr.length ; i++ ){
+			var item = arr[i].split("=");
+			if( item[0] == "userNumber" ){
+				uNumber = item[1];
+			}
+			if( item[0] == "userpwd" ){
+				upwd = item[1];
+			}
+		}
+		
+		if( $("#pNumber").val() == uNumber && $("#upwd").val() == upwd ){
+			alert("登录成功");
+			location.href = "home.html";
+		}else{
+			alert("手机号或密码不正确")
+		}
+	 })
+</script>

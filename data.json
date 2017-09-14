@@ -1,0 +1,118 @@
+{
+	"fresh": 
+	[
+		{
+			"id": "1",
+			"num": "2160402101",
+			"name": "巴西精选牛腩块",
+			"src": {
+				"a": "fresh1.jpg",
+				"b": "show_s_05.jpg",
+				"c": "show_s_06.jpg",
+				"d": "show_s_07.jpg",
+				"e": "show_s_08.jpg",
+				"f": "show_l_05.jpg",
+				"g": "show_l_06.jpg",
+				"h": "show_l_07.jpg",
+				"i": "show_l_08.jpg"
+			},
+			"price": "43.90",
+			"guige": "500g",
+			"from": "巴西",
+			"cuncu": "-18°~0°冷冻",
+			"yuansu": "脂肪，钙，铁",
+			"bzq": "12个月"
+		}, 
+		{
+			"id": "2",
+			"num": "2170714104",
+			"name": "泰森鸡翅中",
+			"src": {
+				"a": "fresh2.jpg",
+				"b": "show_s_01.jpg",
+				"c": "show_s_02.jpg",
+				"d": "show_s_03.jpg",
+				"e": "show_s_04.jpg",
+				"f": "show_l_01.jpg",
+				"g": "show_l_02.jpg",
+				"h": "show_l_03.jpg",
+				"i": "show_l_04.jpg",
+				"j": "ewm02.png"
+			},
+			"price": "22.80",
+			"guige": "220g",
+			"from": "中国",
+			"cuncu": "-18°~0°冷冻",
+			"yuansu": "",
+			"bzq": "12个月",
+			"tedian": "鲜香鸡翅 百吃不腻"
+		}, 
+		{
+			"id": "3",
+			"num": "2161209118",
+			"name": "刺身组合(三文鱼刺身+北极贝)",
+			"src": {
+				"a": "fresh3.jpg",
+				"b": "show_s_09.jpg",
+				"c": "show_s_10.jpg",
+				"d": "show_s_11.jpg",
+				"e": "show_s_12.jpg",
+				"f": "show_l_09.jpg",
+				"g": "show_l_10.jpg",
+				"h": "show_l_11.jpg",
+				"i": "show_l_12.jpg"
+			},
+			"price": "69.80",
+			"guige": "组合1份",
+			"from": "中国",
+			"cuncu": "-18°~0°冷冻",
+			"yuansu": "",
+			"bzq": "12个月"
+		}, 
+		{
+			"id": "4",
+			"num": "2161209118",
+			"name": "三文鱼刺身",
+			"src": {
+				"a": "fresh4.jpg",
+				"b": "show_s_17.jpg",
+				"c": "show_s_18.jpg",
+				"d": "show_s_19.jpg",
+				"e": "show_s_20.jpg",
+				"f": "show_l_13.jpg",
+				"g": "show_l_14.jpg",
+				"h": "show_l_15.jpg",
+				"i": "show_l_16.jpg"
+			},
+			"price": "32.00",
+			"guige": "100g",
+			"from": "中国",
+			"cuncu": "-18°~0°冷冻",
+			"yuansu": "蛋白质，EPA，DHA，不饱和脂肪酸",
+			"bzq": "12个月"
+		}, 
+		{
+			"id": "5",
+			"num": "2161117101",
+			"name": "鲜曝大黄鱼（送调料包）",
+			"src": {
+				"a": "fresh5.jpg",
+				"b": "show_s_17.jpg",
+				"c": "show_s_18.jpg",
+				"d": "show_s_19.jpg",
+				"e": "show_s_20.jpg",
+				"f": "show_l_17.jpg",
+				"g": "show_l_18.jpg",
+				"h": "show_l_19.jpg",
+				"i": "show_l_20.jpg"
+			},
+			"price": "49.00",
+			"guige": "270g",
+			"from": "中国",
+			"cuncu": "-18°~0°冷冻",
+			"yuansu": "蛋白质，VA不饱和脂肪酸，钙",
+			"bzq": "12个月",
+			"pengren": "清蒸，干煎"
+		}
+	]
+}
