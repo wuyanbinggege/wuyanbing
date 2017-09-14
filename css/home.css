@@ -1,0 +1,38 @@
+			#banner{height: 340px;overflow: hidden;position: relative;width: 100%;}
+			#banner img{height: 340px;width: 100%;}
+			#banner .banner_u1{float:left ;height: 340px;width: 100%;position: absolute;}
+			#banner .banner_u1 li{float:left ;position: absolute;width: 100%;}
+			#banner .banner_u1 li:nth-child(1){left: 0;}
+			#banner .banner_u1 li:nth-child(2){left: 1900px;}
+			#banner .banner_u1 li:nth-child(3){left: 3800px;}
+			#banner .banner_u1 li:nth-child(4){left: 5700px;}
+			#banner .banner_u2{position: absolute;left: 1300px;top: 300px;}
+			#banner .banner_u2 li{position: absolute;width: 15px;height: 15px;border-radius: 50%;border: 1px solid green;}
+			#banner .banner_u2 li:nth-child(1){left: 0;}
+			#banner .banner_u2 li:nth-child(2){left: 25px;}
+			#banner .banner_u2 li:nth-child(3){left: 50px;}
+			#banner .banner_u2 li:nth-child(4){left: 75px;}
+			#banner .banner_u2 li.active{background: green;}
+			
+			#jinkou{width: 1300px;height: 160px;margin: 10px auto;}
+			#jinkou ul{float: left;overflow: hidden;}
+			#jinkou ul li{float: left;margin: 0 10px;}
+			
+			#jiating{width: 1300px;height: 690px;border-top: 1px solid #ddd;margin: 10px auto;background: url(../img/images/t1.png) no-repeat;}
+			.buy_box01{width: 1300px;height: 620px;margin-top:60px ;}
+			.buy_box_dl{float: left;margin: 10px 5px;}
+			.buy_box_dl dt{width:250px;overflow: hidden;height: 250px;position: relative;}
+			.buy_box_dl dt img{position: absolute;}
+			.buy_box_dl dd{height: 45px;overflow: hidden;}
+			.buy_box_dl dd .buy_box_box01{float: left;}
+			.buy_box_dl dd .buy_box_box01 p{color: #444;margin: 5px;}
+			.buy_box_dl dd .buy_box_box01 span{margin-left:10px ;}
+			.buy_box_dl dd .buy_box_box02{float: right;border: 1px solid #FFA500;color: #FFA500;border-radius:50% ;margin: 10px;}
+			
+			#quanqiu{width: 1300px;height: 1000px;border-top: 1px solid #ddd;margin: 10px auto;background:url(../img/images/t2.png) no-repeat}
+			.buy_box02{width: 1300px;height: 930px;margin-top:60px ;}
+			
+			#shengxian{width: 1300px;height: 690px;border-top: 1px solid #ddd;margin: 10px auto;background:url(../img/images/t3.png) no-repeat}
+			
+			#lipin{width: 1300px;height: 690px;border-top: 1px solid #ddd;margin: 10px auto;background:url(../img/images/t3.png) no-repeat}
+			

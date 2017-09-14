@@ -1,0 +1,10 @@
+#queren{width: 390px;height: 72px;background: url(../img/images/queren.png) no-repeat;float: right;margin-right: 320px;margin-top: 20px;}
+#querendingdan{width: 1010px;height: 270px;margin: 10px auto;overflow: hidden;}
+#querendingdan ul{width: 174px;height: 175px;float: right}
+#querendingdan ul li{overflow: hidden;margin: 10px 0;}
+#querendingdan ul li p{float: left;text-align: right;width: 85px}
+#querendingdan ul li span{width: 85px;color: #444444;text-align: right;float: right;}
+#querendingdan_footer{width: 1008px;height: 50px;border: 1px solid green;background: #EEEEEE;float: left;}
+#querendingdan_footer span:nth-child(1){width: 735px;height: 50px;text-align: right;line-height: 50px;color: #333333;float: left;}
+#querendingdan_footer span:nth-child(2){width: 112px;height: 50px;text-align: center;line-height: 50px;color: green;font-size: 18px;font-weight: bolder;float: left;}
+#querendingdan_footer span:nth-child(3){width: 150px;height: 50px;text-align: center;line-height: 50px;color: white;font-size: 18px;font-weight: bolder;float: right;background: green;cursor: pointer;}

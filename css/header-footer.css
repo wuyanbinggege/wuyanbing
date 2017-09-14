@@ -1,0 +1,54 @@
+*{margin: 0; padding: 0;font-size: 12px;list-style: none;color: gray;text-decoration: none;}
+body,html{height: 100%;width: 100%;}
+			#place{margin-left:300px ;float: left;margin-top: 9px;height: 21px;width: 50px;text-align: center;}
+			#place:hover{background: #fff;border-bottom: 1px solid #FFFFFF;}
+			#place_block{width: 300px;height: 380px;background: #FFFFFF;position: absolute;top: 30px;left: 300px;display:none ;z-index: 999;box-shadow: 0 0 20px #BBBBBB;}
+			#top{height: 30px;border-bottom: 1px solid darkgray;background: #eee;}
+			#top p{float: left;margin-top: 9px;}
+			#top ul{float: right;margin-right: 15%;margin-top: 9px;}
+			#top li{float: left;margin: auto 12px;text-align: center;}
+			#top span{color: red;}
+			#top a:hover{color: orange;text-decoration: underline}
+			#top a:hover span{color: orange;}
+			#header{height: 100px;box-shadow: 0 3px 5px #DDDDDD;background: white;}
+			#img01{margin-left:15%;float: left;}
+			#header ul{float: left;margin-left: 40px;margin-top: 40px;}
+			#header ul li{float: left;text-align: center;border-right: 1px #eee solid;}
+			#header ul li:last-child{border-right:none;}
+			#header ul li a{width: 80px;display: block;}
+			#header ul li a:hover{background: #eee;}
+			#header input{border: none;border-bottom: 1px gray solid;outline:none;float: left;height: 18px;}
+			#shousuo{margin-right: 15%;float: right;margin-top: 30px;}
+			#shousuo img{float: left;}
+			#shousuo a:hover{text-decoration: underline;}
+			#shousuo div{float: left;}
+			#shop_car span{color: red;}
+			
+			#xuanfu{position: fixed;bottom: 0;right:2px;}
+			#xuanfu ul{height: 120px;width: 40px;}
+			#xuanfu ul li{background: green; border-radius: 5px;height: 40px;margin: 1px;color:#EEEEEE;text-align: center;line-height: 40px;cursor:pointer}
+			#xuanfu ul li:nth-child(1){font-size: 10px;line-height: 20px;}
+			
+			#footer{overflow:hidden;height:310px;background:url(../img/images/20170902165325.png) no-repeat white;margin: 20px auto; background-position: top;}
+			#footer_box01{margin-left: 15%;margin-top: 120px;float: left;}
+			#footer p{margin-left: 30%;}
+			#footer p span{color: black; }
+			#footer img{float: left;}
+			#footer_box02{float: left;margin-top: 120px;margin-left:20px ;}
+			#footer_box02 img{float: left;}
+			#footer_box02 span{display: block;height: 30px;text-align: center;line-height: 30px;}
+			#footer_box03{float: left;margin-top: 120px;margin-left:20px ;}
+			#footer_box03 img{float: left;}
+			#footer_box03 span{display: block;height: 30px;text-align: center;line-height: 30px;}
+			#footer_box04{float: left;margin-top: 120px;margin-left:80px ;overflow: hidden}
+			#footer_box04 .u1{font-size: 16px;color: black;overflow: hidden;}
+			#footer_box04 .u1 li{height: 40px;line-height: 40px;float: left;width: 100px;font-size: 14px;color: black;}
+			#footer_box04 .u2{width: 400px;height: 30px;}
+			#footer_box04 .u2 li{height: 30px;line-height: 30px;float: left;width: 100px}
+			#footer_box04 .u2 a:hover{text-decoration: underline;color: green;}
+			
+			#bottom{border-top: 1px solid #808080;margin: 0 auto;height: 200px;background: white;}
+			#bottom p{text-align: center;}
+			#bottom .p1{margin-top:20px ;}
+			#bottom .p2{margin:10px ;color: green;}
+			#bottom img{margin:0 49%;width: 30px; height: 40px;}

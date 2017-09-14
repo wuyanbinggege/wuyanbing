@@ -1,0 +1,15 @@
+#denglu_p{font-size: 20px;width: 1000px;height: 58px;line-height: 58px;border-bottom: 1px solid #DDDDDD;color: #bbb;margin: 46px auto;font-weight: 100;overflow: hidden;}
+#denglu{width: 1000px;height: 400px;margin: 35px auto;}
+	#denglu_left{width: 500px;height: 400px;background: url(../img/images/huiyuan.jpg) no-repeat ;position: relative;float: left;}
+		#denglu_left a{width: 150px; height: 45px; color: green;border: 1px solid green;display: block;font-size: 18px;line-height: 45px;text-align: center;border-radius: 5px;position: absolute;bottom: 20px; left: 175px;}
+	#denglu_right{width: 400px;height: 230px;float: right;margin-top: 80px;overflow: hidden;}
+		#denglu_right p{width: 390px;height: 40px;float: right;margin-bottom: 23px;overflow: hidden;font-size: 16px;}
+		#denglu_right p input{float: right;}
+		#denglu_right p:nth-child(1) input{width: 300px;height: 35px;}
+		#denglu_right p:nth-child(2) input{width: 300px;height: 35px;}
+		#denglu_right p:nth-child(3){width: 300px;height: 35px;}
+		#denglu_right p:nth-child(3) input{float: none;}
+		#denglu_right p:nth-child(3) a{float: right;text-decoration: underline;margin-right: 5px;font-size: 16px;}
+		#denglu_right p:nth-child(4) input{width: 145px; height: 40px;margin-left: 15px;font-size: 16px;padding:0}
+			#denglu_right p:nth-child(4) input{background: lightgreen;color: green;border: 1px solid green;border-radius: 8px;cursor: pointer;width: 145px; height: 40px;margin-left: 15px;font-size: 16px;padding:0}
+		    #denglu_right p:nth-child(4) a{background: green;color: white;border: none;border-radius: 4px;cursor: pointer;width: 145px; height: 40px;margin-left: 15px;font-size: 16px;padding:0;float: right;text-align: center;line-height: 40px;}

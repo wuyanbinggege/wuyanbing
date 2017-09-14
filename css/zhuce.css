@@ -1,0 +1,18 @@
+#zhuce_p{font-size: 20px;width: 1000px;height: 58px;line-height: 58px;border-bottom: 1px solid #DDDDDD;color: #bbb;margin: 46px auto;font-weight: 100;overflow: hidden;}
+#zhuce{width: 1000px;height: 400px;margin: 35px auto;}
+	#zhuce_left{width: 500px;height: 400px;background: url(../img/images/huiyuan.jpg) no-repeat ;position: relative;float: left;}
+		#zhuce_left a{width: 150px; height: 45px; color: green;border: 1px solid green;display: block;font-size: 18px;line-height: 45px;text-align: center;border-radius: 5px;position: absolute;bottom: 20px; left: 175px;}
+	#zhuce_right{width: 435px; height: 390px;float: right;}
+		#zhuce_right p{float: right;margin-bottom: 27px;width: 435px;text-align: right;line-height: 35px;}
+			#zhuce_right input{width: 300px; height: 35px; padding-left: 10px;margin-left: 30px;float: right;}
+				#zhuce_right p:nth-child(6) input{width: 145px; height: 40px;margin-left: 15px;font-size: 16px;padding:0;background: lightgreen;color: green;border: 1px solid green;border-radius: 8px;cursor: pointer}
+				#zhuce_right p:nth-child(6) a{display:block;width: 145px; height: 40px;margin-left: 15px;font-size: 16px;background: green;color: white;border: none;border-radius: 4px;cursor: pointer;float: right;text-align: center;}
+			#zhuce_right #yzm{width: 270px;margin-right: 30px;}
+		#zhuce_right p{position: relative;}
+			#zhuce_right p:nth-child(5) input{cursor:not-allowed}
+				#zhuce_right p:nth-child(4) span:nth-child(3){position: absolute;top:8px;right: 1px; cursor: pointer}
+				#zhuce_right p:nth-child(4) span:nth-child(2){position: absolute;top: 2px;right: 33px; cursor: pointer}
+				#zhuce_right p:nth-child(4) span:nth-child(2) img{width: 100px;height: 35px;}
+				#zhuce_right p:nth-child(5) span{position: absolute;top: 1px;right: 1px; cursor: pointer;width: 98px;height: 38px;line-height: 38px;text-align: center;background: #BBBBBB;color: black;}
+			
+			

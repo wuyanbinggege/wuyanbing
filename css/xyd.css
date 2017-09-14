@@ -1,0 +1,9 @@
+#xyd_move{width: 100%;height: 760px;background: url(../img/images/xingyd-bg.jpg) no-repeat ;margin-top: 15px;position: relative;overflow: hidden;}
+	#xyd_move img{position: absolute;}
+	#car{left: 620px;bottom: 5px;}
+	#sh{bottom: 0;left: -4000px;}
+#xyd_main_top{height: 950px; background: #DDDDDD;overflow: hidden;}
+	#xyd_main_top img{margin: 0 auto;display: block;margin-top:30px ;}
+	#xyd_main_top p{overflow: hidden;height: 20px;width: 1015px;margin: 20px auto;}
+		#xyd_main_top p a{width: 180px; height: 14px;font-size: 14px;text-decoration: underline;float: right;color: #444444;}
+	#xyd_main_bottom img{display: block; margin: 0 auto;}

@@ -1,0 +1,55 @@
+#main{width: 1300px;margin: 10px auto;}
+	#nav_{width: 200px;height: 20px;margin: 20px 0;}
+		#nav_ strong,#nav_ a{color: green;}
+	#show{width: 1300px;height: 560px;overflow: hidden;}
+		.show_l{width: 705px;height: 560px;float: left;}
+			.show_l p{width: 560px;height: 560px;float: left;margin-left:3px ;position: relative;}
+				.show_l p img{width: 560px;height: 560px;position: absolute}
+				.show_l p img:nth-child(1){z-index: 999;}
+			.show_l ul{width: 138px;height: 640px;float: left;}
+				.show_l ul li{position: relative;width: 138px;height: 138px;margin-bottom: 2px;}
+					.show_l ul li img{width: 138px; height: 138px;position: absolute;}
+					.mask{display: none;border: 1px solid orange;}
+					.show_l ul li:nth-child(1) img{display: block;}
+					/*.show_l ul li:hover img:nth-child(2){display: block;}*/
+					
+		.show_r{float: right;width: 550px;height: 500px;}
+			.show_r p{margin: 10px 0;}
+			#name{font-size: 24px;}
+			#price{width: 550px;height: 76px;background:url(../img/images/icons.png) no-repeat ;background-position-y: -48px;}
+				#price span:nth-child(2){color: green;font-size: 24px;margin-left: 10px;}
+				#price img{position: absolute;right: 0;top: -102px;display: none;}
+				#erWeiMa_s{width: 26px;height: 26px;background: url(../img/images/icons.png);background-position: -64px -8px;display: block;float: right;margin-top: 25px;margin-right: 25px;position: relative;}
+					#erWeiMa_s:hover #erWeiMa_l{display: block;}
+			#guige{overflow: hidden;}		
+			#guige span{display: block;float: left;margin: 10px 15px;}
+			#guige span:nth-child(2){width: 70px;height: 25px;line-height: 25px;text-align: center;color: white;background: green;}
+			#peiSong{height: 34px;width: 100%;}
+			#peiSong div{float: left;margin: 5px 10px;}
+			#peiSong div:nth-child(1){margin-top: 10px;}
+			#peiSong div:nth-child(2){height: 25px;width: 70px;text-align: center;border: 1px solid #DDDDDD;line-height: 25px;color: black;position: relative;}
+			#peiSong #v{float: right;margin: 0;margin-right: 10px;}
+			#peiSong #xuanZe{width: 354px;height: 160px;border: 1px solid #DDDDDD;overflow: hidden;position: absolute;display: none;background: white;top: 21px;left: -11px;}
+			#peiSong_to:hover #xuanZe{display: block;}
+			#xuanZe p:nth-child(1){width: 75px;height: 22px;border: 3px solid green;border-bottom: none;text-align: center;line-height: 22px;float: left;font-size: 14px;font-weight: bold;color: #333;margin-left:15px ;}
+			#xuanZe p:nth-child(2){width: 245px;height: 22px;border-bottom: 3px solid green;float: left;}
+			#xuanZe ul{float: left;overflow: hidden;width: 320px;height: 90px;margin-left:30px ;}
+			#xuanZe ul li{float: left;width: 80px;height: 26px;}
+			#xuanZe ul li a:hover{background: green;color: white;cursor: pointer;}
+			#peiSong span:nth-child(3){color: green;display: block;height: 20px;line-height: 40px;}
+			#shuLiang{height: 40px;overflow: hidden;float: left;width: 100%;margin-top: 10px;}
+			#shuLiang_s1 {float: left;margin: 5px 5px;margin-left: 10px;}
+			#shuLiang div{float: left;width: 96px;height: 23px;border: 1px solid #BBBBBB;margin-left: 26px;}
+			#shuLiang div span{width: 32px;height: 23px;line-height: 23px;text-align: center;float: left;}
+			.jiajian{background: #eee;cursor:pointer;}
+			#button{height: 75px;float: left;overflow: hidden;width: 100%;margin: 0;border-bottom: 1px solid #EEEEEE;}
+			#buy{width: 160px;height: 35px;border: 1px solid green;background: #EEEEEE;float: left;border-radius: 3px;color: green;text-align: center;line-height: 35px;margin-left: 60px;margin-top: 20px;cursor:pointer;}
+			#addShopCar{width: 160px;height: 35px;background: green;float: left;border-radius: 3px;color: white;text-align: center;line-height: 35px;margin-top: 20px;margin-left: 15px;cursor:pointer;}
+			#chanDi{float: left;height: 36px;width: 100%;}
+			#chanDi span{margin-top: 20px;float: left;}
+			#chanDi span:nth-child(2){color: #222;margin-left: 20px;}
+			#chanDi span:nth-child(3){margin-left: 200px;}
+			#chanDi span:nth-child(4){color: #222;margin-left: 20px;}
+			#num{float: left;}
+			#num span:nth-child(2){color: #222;margin-left: 20px;}
+			

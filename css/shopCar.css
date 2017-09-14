@@ -1,0 +1,34 @@
+#mycar{width: 390px;height: 72px;background: url(../img/images/mycar.png) no-repeat;float: right;margin-right: 320px;margin-top: 20px;}
+#shopCar{width: 1010px;margin: 10px auto;margin-top: 40px;}
+#shopCar_header{color: #222222;font-size: 22px;}
+#shopCar_header a{color: green;text-decoration: underline;font-size: 12px;float: right;}
+#shopCar_main{width: 100%;border: 1px solid #DDDDDD;}
+#xinxi{height: 50px;width: 100%;background:#EEEEEE;border-bottom: 1px solid #DDDDDD;overflow: hidden;}
+#xinxi span{float: left;line-height: 50px;text-align: center;}
+#xinxi span:nth-child(1){width: 420px;}
+#xinxi span:nth-child(2){width: 90px;}
+#xinxi span:nth-child(3){width: 118px;}
+#xinxi span:nth-child(4){width: 130px;}
+#xinxi span:nth-child(5){width: 115px;}
+#xinxi span:nth-child(6){width: 130px;}
+#shopCar_no{height: 125px;width: 100%;color: #333333;text-align: center;line-height: 125px;display: none;}
+#shopCar_no a{color: green;text-decoration: underline;font-size: 12px;}
+#shopCar_list{width: 100%;}
+#shopCar_list li{width: 100%;overflow: hidden;color: #222222;}
+#shopCar_list li span,a{color: #222222;}
+#shopCar_list li img{width: 106px;height: 106px;float: left;margin: 10px 0;margin-left: 55px;}
+#shopCar_list li span:nth-child(2){float: left;width: 200px;height: 40px;margin: 10px 10px;margin-left: 30px;}
+#shopCar_list li span:nth-child(3){float: left;width: 90px;height: 40px;margin: 10px 5px;text-align: center;}
+#shopCar_list li span:nth-child(4){float: left;width: 118px;height: 40px;margin: 10px 5px;text-align: center;color: green;font-weight: bold;}
+#shopCar_list li div{float: left;width: 118px;height: 40px;margin: 10px 5px;overflow: hidden;}
+#shopCar_list li div p{float: left;width: 93px;height: 25px;overflow: hidden;border:1px solid #BBBBBB}
+#shopCar_list li div p span:nth-child(1){width: 31px;margin: 0;height: 25px;float: left;text-align: center;line-height: 25px;background: #EEEEEE;cursor: pointer;}
+#shopCar_list li div p span:nth-child(2){width: 31px;margin: 0;height: 25px;float: left;text-align: center;line-height: 25px;}
+#shopCar_list li div p span:nth-child(3){width: 31px;margin: 0;height: 25px;float: left;text-align: center;line-height: 25px;background: #EEEEEE;cursor: pointer;}
+#shopCar_list li span:nth-child(6){float: left;width: 118px;height: 40px;margin: 10px 5px;text-align: center;color: green;font-weight: bold;}
+#shopCar_list li span:nth-child(7){float: left;width: 100px;height: 40px;margin: 10px 5px;text-align: center;cursor: pointer;}
+#pay{width: 100%;height: 50px;border: 1px solid #008000;background: #90EE90;margin-top: 20px;}
+#pay span:nth-child(1){width: 740px;height: 50px;text-align: right;line-height: 50px;float: left;}
+#pay span:nth-child(1) em{font-size: 14px;color: green;font-weight: bolder;}
+#pay span:nth-child(2){width: 100px;height: 50px;text-align: center;line-height: 50px;float: left;font-size:18px ;font-weight: bold;color: green;}
+#pay span:nth-child(3){width: 120px;height: 50px;text-align: center;line-height: 50px;float: right;font-size:20px ;color: white;background: green;cursor: pointer;}
