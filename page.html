@@ -208,10 +208,10 @@
 					for(var j in res[i]) {
 						if(pid == res[i][j].id) {
 							str = `<ul>
-										<li><img src="img/${res[i][j].src.b}"/></li>
-										<li><img src="img/${res[i][j].src.c}"/></li>
-										<li><img src="img/${res[i][j].src.d}"/></li>
-										<li><img src="img/${res[i][j].src.e}"/></li>
+										<li class="small"><img src="img/${res[i][j].src.b}"/></li>
+										<li class="small"><img src="img/${res[i][j].src.c}"/></li>
+										<li class="small"><img src="img/${res[i][j].src.d}"/></li>
+										<li class="small"><img src="img/${res[i][j].src.e}"/></li>
 									</ul>
 									<p>
 										<img class="big" src="img/${res[i][j].src.f}"/>
@@ -234,7 +234,8 @@
 													<li><a>浙江</a></li><li><a>安徽</a></li><li><a>北京</a></li>
 													<li><a>天津</a></li><li><a>河北</a></li><li><a>广东</a></li>
 												</ul>
-											</div>
+
+	</div>
 										</div>
 										<span>有货</span>
 									</div>
@@ -256,6 +257,8 @@
 					if(index == 4) {
 						index = 0;
 					}
+					$(".small").eq(index).css("border","1px solid orange")
+					           .siblings(".small").css("border","");
 // 					$(".mask").eq(index).css("display", "block")
 // 						.siblings(".mask").css("display", "none");
 					$(".big").eq(index).css("z-index", 999)
@@ -264,6 +267,8 @@
 				$(".show_l li").hover(
 					function() {
 						clearInterval(timer);
+						$(".small").eq($(this).index()).css("border","1px solid orange")
+					           .siblings(".small").css("border","");
 // 						$(".mask").eq($(this).index()).css("display", "block")
 // 							.siblings(".mask").css("display", "none");
 						$(".big").eq($(this).index()).css("z-index", 999)
