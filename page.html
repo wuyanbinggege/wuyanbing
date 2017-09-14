@@ -256,16 +256,16 @@
 					if(index == 4) {
 						index = 0;
 					}
-					$(".mask").eq(index).css("display", "block")
-						.siblings(".mask").css("display", "none");
+// 					$(".mask").eq(index).css("display", "block")
+// 						.siblings(".mask").css("display", "none");
 					$(".big").eq(index).css("z-index", 999)
 						.siblings(".big").css("z-index", 0);
 				}
 				$(".show_l li").hover(
 					function() {
 						clearInterval(timer);
-						$(".mask").eq($(this).index()).css("display", "block")
-							.siblings(".mask").css("display", "none");
+// 						$(".mask").eq($(this).index()).css("display", "block")
+// 							.siblings(".mask").css("display", "none");
 						$(".big").eq($(this).index()).css("z-index", 999)
 							.siblings(".big").css("z-index", 0);
 					},
